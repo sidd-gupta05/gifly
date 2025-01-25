@@ -9,44 +9,68 @@ import Favorite from "./pages/favorite";
 import AppLayout from "./layout/AppLayout";
 
 import Header from "./components/header";
-import './App.css'
+import './App.css';
+import GifProvider from "./context/GifContext";
 
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
     children: [
-      { path: "/", element: <>
-          <Header />
-          <Home />
-        </> 
+      { 
+        path: "/", 
+        element: (
+          <>
+            <Header />
+            <Home />
+          </>
+        ),
       },
-      { path: "/:category", element: <>
-          <Header />
-          <Category />
-        </> 
+      { 
+        path: "/:category", 
+        element: (
+          <>
+            <Header />
+            <Category />
+          </>
+        ),
       },
-      { path: "/:search/:query", element: <>
-          <Header />
-          <Search />
-        </> 
+      { 
+        path: "/search/:query", 
+        element: (
+          <>
+            <Header />
+            <Search />
+          </>
+        ),
       },
-      { path: "/:type/:slug", element: <>
-          <Header />
-          <Findgif />
-        </> 
+      { 
+        path: "/:type/:slug", 
+        element: (
+          <>
+            <Header />
+            <Findgif />
+          </>
+        ),
       },
-      { path: "/favorites", element: <>
-          <Header />
-          <Favorite />
-        </> 
+      { 
+        path: "/favorite", 
+        element: (
+          <>
+            <Header />
+            <Favorite />
+          </>
+        ),
       },
     ],
   },
 ]);
 
 function App() {
-  
-  return <RouterProvider router={router} />;
+  return (
+    <GifProvider>
+      <RouterProvider router={router} />
+    </GifProvider>
+  );
 }
 
-export default App
+export default App;
