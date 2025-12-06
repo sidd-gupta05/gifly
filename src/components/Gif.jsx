@@ -12,7 +12,7 @@ const Gif = ({ gif, hover = true }) => {
   const randomColor = colors[Math.floor(Math.random() * colors.length)]; // Pick a random color
 
   const isFavorite = favorites.includes(gif.id);
-  
+
   return (
     <Link to={`/${gif.type}s/${gif.slug}`}>
       <div className="w-full mb-2 relative cursor-pointer group aspect-video">
@@ -27,9 +27,7 @@ const Gif = ({ gif, hover = true }) => {
         <img
           src={gif?.images?.fixed_width?.webp}
           alt={gif?.title || "GIF"}
-          className={`w-full object-cover rounded transition-all duration-300 ${
-            loading ? "opacity-0" : "opacity-100"
-          }`}
+          className={`w-full object-cover rounded transition-all duration-300 ${loading ? "opacity-0" : "opacity-100"}`}
           onLoad={() => setLoading(false)} // Hide loading placeholder when the image loads
         />
 
@@ -53,9 +51,7 @@ const Gif = ({ gif, hover = true }) => {
             e.preventDefault(); // Prevent navigation when clicking the heart button
             addToFavorites(gif.id);
           }}
-          className={`absolute top-2 right-2 ${
-            favorites.includes(gif.id) ? "text-red-500" : "text-gray-500"
-          }`}
+          className={`absolute top-2 right-2 ${favorites.includes(gif.id) ? "text-red-500" : "text-gray-500"}`}
         >
           <HiMiniHeart size={30} />
         </button>
