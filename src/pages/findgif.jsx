@@ -158,7 +158,7 @@ const Findgif = () => {
             </div>
             </div>
 
-            <div className="hidden sm:block flex flex-col gap-5 mt-6 sm:mt-0">
+            <div className="hidden sm:block flex flex-col gap-5 mt-10 sm:mt-0">
               <button
                 onClick={() => addToFavorites(gif.id)}
                 className="flex gap-5 items-center font-bold text-lg transition-all duration-300 "
