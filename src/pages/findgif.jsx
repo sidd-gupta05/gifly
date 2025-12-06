@@ -44,11 +44,13 @@ const Findgif = () => {
   };
 
   const embedGif = () => {
-    const gifUrl = gif.url || window.location.href;
+    // Use your own website URL instead of Giphy URL
+    const currentUrl = window.location.href; // This is your website URL
+
     navigator.clipboard
-      .writeText(gifUrl)
+      .writeText(currentUrl)
       .then(() => {
-        alert("GIF URL copied to clipboard!");
+        alert("Page URL copied to clipboard! Share this link.");
       })
       .catch((error) => {
         console.error("Failed to copy URL: ", error);
