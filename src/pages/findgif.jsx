@@ -35,7 +35,7 @@ const Findgif = () => {
   // Generate shareable website URL for this GIF
   const getGifWebsiteUrl = () => {
     const websiteBaseUrl = window.location.origin;
-    return `${websiteBaseUrl}/gifs/${slug}`;
+    return `${websiteBaseUrl}/${type}/${slug}`;
   };
 
   // Native Web Share API (for mobile devices)
