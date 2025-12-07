@@ -9,15 +9,15 @@ import Favorite from "./pages/favorite";
 import AppLayout from "./layout/AppLayout";
 
 import Header from "./components/header";
-import './App.css';
+import "./App.css";
 import GifProvider from "./context/GifContext";
 
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
     children: [
-      { 
-        path: "/", 
+      {
+        path: "/",
         element: (
           <>
             <Header />
@@ -25,17 +25,17 @@ const router = createBrowserRouter([
           </>
         ),
       },
-      { 
-        path: "/:category", 
+      {
+        path: "/favorite",
         element: (
           <>
             <Header />
-            <Category />
+            <Favorite />
           </>
         ),
       },
-      { 
-        path: "/search/:query", 
+      {
+        path: "/search/:query",
         element: (
           <>
             <Header />
@@ -43,8 +43,8 @@ const router = createBrowserRouter([
           </>
         ),
       },
-      { 
-        path: "/:type/:slug", 
+      {
+        path: "/:type/:slug",
         element: (
           <>
             <Header />
@@ -52,12 +52,12 @@ const router = createBrowserRouter([
           </>
         ),
       },
-      { 
-        path: "/favorite", 
+      {
+        path: "/:category",
         element: (
           <>
             <Header />
-            <Favorite />
+            <Category />
           </>
         ),
       },
