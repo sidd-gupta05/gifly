@@ -19,7 +19,7 @@
 
 ## 🚀 Live Demo
 
-**[👉 Click here to visit Live Website](https://sidd-gifly.vercel.app)**
+**[Live Website](https://sidd-gifly.vercel.app)**
 
 ## 📱 Responsive Design
 
@@ -117,52 +117,7 @@ yarn build
 - Free tier: 42 requests/hour
 - Production tier: 3,000 requests/hour
 
-## 📁 Project Structure
-
-```
-gifly/
-├── public/
-│   ├── index.html
-│   └── 404.html
-├── src/
-│   ├── components/
-│   │   ├── Gif.jsx          # GIF display component
-│   │   ├── Header.jsx       # Navigation header
-│   │   └── FollowOn.jsx     # Social follow component
-│   ├── pages/
-│   │   ├── Home.jsx         # Homepage
-│   │   ├── Findgif.jsx      # GIF detail page
-│   │   ├── Category.jsx     # Category page
-│   │   ├── Search.jsx       # Search results
-│   │   └── Favorite.jsx     # Favorites page
-│   ├── context/
-│   │   └── GifContext.jsx   # Global state management
-│   ├── layout/
-│   │   └── AppLayout.jsx    # Main layout wrapper
-│   ├── App.jsx              # Main app component
-│   └── main.jsx             # Entry point
-├── .env.example             # Environment template
-├── vercel.json             # Vercel configuration
-├── vite.config.js          # Build configuration
-└── package.json            # Dependencies
-```
-
 ## 🎨 Customization
-
-### **Change Colors**
-Edit `tailwind.config.js`:
-```js
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        primary: '#your-color',
-        secondary: '#your-color',
-      }
-    }
-  }
-}
-```
 
 ### **Modify Layout**
 - **Columns**: Edit grid classes in components
