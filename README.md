@@ -230,4 +230,4 @@ If you like this project, please give it a ⭐ on GitHub!
 
 ---
 
-**Made with ❤️ by Siddharth**
+**Made with love by Siddharth Gupta**
