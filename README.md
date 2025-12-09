@@ -19,7 +19,7 @@
 
 ## 🚀 Live Demo
 
-**[👉 Click here to visit Live Website](https://gifly.vercel.app)** *(Replace with your actual URL)*
+**[👉 Click here to visit Live Website](https://sidd-gifly.vercel.app)**
 
 ## 📱 Responsive Design
 
