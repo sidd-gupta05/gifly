@@ -1,7 +1,5 @@
 # 🎬 Gifly - Modern GIF Discovery Platform
 
-![Gifly Banner](https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80)
-
 ## 🌟 Features
 
 ### 🎯 **Core Features**
@@ -18,15 +16,6 @@
 - 📊 **Related Content** - Discover similar GIFs
 - 🌙 **Modern UI** - Clean, dark-themed interface
 
-## 📸 Screenshots
-
-| Desktop View | Mobile View |
-|--------------|-------------|
-| ![Desktop](https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80) | ![Mobile](https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80) |
-
-| Tablet View | Sharing Modal |
-|-------------|---------------|
-| ![Tablet](https://images.unsplash.com/photo-1546054451-aa8e5d41c2fd?ixlib=rb-1.2.1&auto=format&fit=crop&w-800&q=80) | ![Sharing](https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80) |
 
 ## 🚀 Live Demo
 
