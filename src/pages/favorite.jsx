@@ -10,7 +10,7 @@ const Favorite = () => {
     if (favorites.length === 0) return;
 
     // Fetch GIFs based on the list of favorite IDs
-    const { data: gifs } = await gf.gifs(favorites.join(',')); // Assuming `favorites` is an array of GIF IDs
+    const { data: gifs } = await gf.gifs(favorites.join(',')); 
     setFavoriteGIFs(gifs);
   };
 
