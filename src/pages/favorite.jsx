@@ -16,7 +16,7 @@ const Favorite = () => {
 
   useEffect(() => {
     fetchFavoriteGIFs();
-  }, [favorites]); // Re-fetch when favorites change
+  }, [favorites]); 
 
   return (
     <div className="mt-2">
