@@ -7,7 +7,6 @@ const Gif = ({ gif, hover = true }) => {
   const [loading, setLoading] = useState(true);
   const { favorites, addToFavorites } = GifState();
 
-  // Array of random colors for loading placeholders
   const colors = ["bg-red-300", "bg-blue-300", "bg-yellow-300", "bg-green-300", "bg-purple-300"];
   const randomColor = colors[Math.floor(Math.random() * colors.length)]; // Pick a random color
 
