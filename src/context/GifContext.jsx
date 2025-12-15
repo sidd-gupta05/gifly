@@ -8,7 +8,6 @@ const GifProvider = ({ children }) => {
   const [filter, setFilter] = useState("gifs");
   const [favorites, setFavorites] = useState([]);
 
-  // Add or Remove GIF from favorites
   const addToFavorites = (id) => {
     let updatedFavorites;
 
