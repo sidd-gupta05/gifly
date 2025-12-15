@@ -15,7 +15,6 @@ const Gif = ({ gif, hover = true }) => {
   return (
     <Link to={`/${gif.type}s/${gif.slug}`}>
       <div className="w-full mb-2 relative cursor-pointer group aspect-video">
-        {/* Loading Placeholder */}
         {loading && (
           <div
             className={`absolute inset-0 ${randomColor} rounded animate-pulse`}
