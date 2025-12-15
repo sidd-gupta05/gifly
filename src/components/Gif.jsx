@@ -8,7 +8,7 @@ const Gif = ({ gif, hover = true }) => {
   const { favorites, addToFavorites } = GifState();
 
   const colors = ["bg-red-300", "bg-blue-300", "bg-yellow-300", "bg-green-300", "bg-purple-300"];
-  const randomColor = colors[Math.floor(Math.random() * colors.length)]; // Pick a random color
+  const randomColor = colors[Math.floor(Math.random() * colors.length)];
 
   const isFavorite = favorites.includes(gif.id);
 
