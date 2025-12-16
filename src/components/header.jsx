@@ -46,7 +46,6 @@ const Header = () => {
             >
               <button className="cursor-pointer bg-gradient-to-b hover:bg-gradient-to-b hover:from-purple-400 hover:to-indigo-600 shadow-[0px_4px_32px_0_rgba(99,102,241,.70)] px-6 py-3 rounded-xl border-[1px] border-slate-500 text-white font-medium group">
                 <div className="relative overflow-hidden">
-                  {/* Apply rotation on hover */}
                   <p >
                     {category.name}
                   </p>
