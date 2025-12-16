@@ -54,7 +54,6 @@ const Header = () => {
             </Link>
           ))}
 
-          {/* This button will be visible on smaller screens */}
           <button onClick={() => setShowCategories(!showCategories)} className="lg:hidden">
             <HiMenuAlt3 size={35} className="py-0.5" />
           </button>
