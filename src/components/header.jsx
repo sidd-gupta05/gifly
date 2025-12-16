@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"; // Importing useState and useEffect from React
-import { Link } from "react-router-dom"; // Importing Link for navigation
+import { Link } from "react-router-dom"; 
 import { HiDotsVertical } from "react-icons/hi";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { GifState } from "../context/GifContext";
