@@ -1,7 +1,8 @@
 {
   "rewrites": [
-    { "source": "/gifs/(.*)", "destination": "/" },
-    { "source": "/search/(.*)", "destination": "/" },
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
   ]
 }
